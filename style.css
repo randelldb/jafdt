@@ -1,0 +1,28 @@
+#plugin-container{
+    position:fixed;
+    padding:0;
+    margin:0;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    /*background: rgba(255,255,255,0.5);*/
+}
+
+.line{
+    background-color: red;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+#x-line{
+    width: 2px;
+    height: 100vh;
+
+}
+
+#y-line{
+    height: 2px;
+    width: 100vw;
+}
